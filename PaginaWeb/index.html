@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Javier Martínez</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" href="estilosIndex.css">  
+        <style id="container">
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+        }
+
+        li {
+          float: left;
+        }
+
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+
+        li a:hover {
+          background-color: #111;
+        }
+        </style>
+    </head>
+        <body>
+            
+        <div id="container">
+                <div id="nombre">
+                <h1 id="index">Javier Martínez</h1>
+                </div>
+            
+            
+                              
+
+                <div class="slider">
+                    <ul>
+                        <li>
+                            <img src="Fotos/foto1.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="Fotos/foto2.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="Fotos/foto3.jpg" alt="">
+                        </li>
+                        <li>
+                            <img src="Fotos/foto4.jpg" alt="">
+                        </li>
+                    </ul>
+                </div>
+            <ul>
+                  <li><a class="active" href="#index">Inicio</a></li>
+                  <li><a href="#demoreel">DemoReel</a></li>
+                  <li><a href="#Contacto">Contacto</a></li>
+                  <li><a href="#SobreMi">Sobre Mí</a></li>
+                </ul>
+               
+                <h1 id="demoreel">DemoReel</h1>
+                <iframe width="1000px" height="600px" src="https://www.youtube.com/embed/EYFrBg1yb6g">
+                </iframe>
+                
+                <h1 id="SobreMi">Sobre Mí</h1>
+                <h2>Me llamo Javi y soy Animador 3D</h2>
+                
+            
+                <h1 id="Contacto">Contacto</h1>
+                <h2>E-mail: javi_martinez_lorenzo@hotmail.com</h2>
+            
+            
+            
+            <form method="post" action="tratamiento.php">
+ 
+   <fieldset>
+       <div></div>
+       <legend>Tus datos de contacto</legend> <!-- Título del conjunto de campos --> 
+       
+       <label for="apellidos">¿Cuáles son tus apellidos?</label></br>
+       <input type="text" name="apellido" id="apellido" /></br>
+
+       <label for="nombre">¿Cuál es tu nombre?</label></br>
+       <input type="text" name="nombre" id="nombre" /></br>
+ 
+       <label for="email">¿Cuál es tu dirección de correo electrónico?</label></br>
+       <input type="email" name="email" id="email" /></br>
+
+   </fieldset>
+ 
+   <fieldset>
+       <legend>Tu deseo</legend> <!-- Título del conjunto de campos -->
+       <p>
+           <label for="specs">Si has elegido «Otro», especifica cuál:</label></br>
+           <textarea name="specs" id="specs" cols="40" rows="4"></textarea>
+       </p>
+   </fieldset>
+</form>
+<input type="submit" value="Enviar" ></code>
+        </div>
+
+          
+            
+        </body>
+</html>
