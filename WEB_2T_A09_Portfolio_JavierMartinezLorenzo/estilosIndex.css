@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600);
+
+body, html {
+
+	color: white;
+    height: 100%;
+    width: 100%;
+}
+html{
+scroll-behavior: smooth;
+}
+
+body{
+    background: url(Fotos/fondo3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Noto Serif', serif;
+	font-weight:300;
+	font-size: 12px;
+	line-height:30px;
+	color:#777;
+    
+}
+ .fotosCuadroUl{
+     height: 100%;
+ }
+
+
+#container{
+    
+    height: auto;
+    width: 65%;
+    background-color: rgba(255, 255, 255, 0.85);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Noto Serif', serif;
+      
+}
+
+#container > h1{
+ width: 100%;
+ background-color: cadetblue;
+ color: black;     
+}
+
+#container > h2{
+ width: 100%;
+ color: black;     
+}
+
+#container > ul{
+    width: 100%; 
+    position: fixed;
+    top: 0%;
+    width: 65%;
+    margin: auto;
+    font-size: 17px;
+}
+
+
+
+
+.slider {
+	width: 95%;
+	margin: auto;
+    overflow: hidden;
+    border: solid black 2px;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: cambio 10s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 100%;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+.nombre {
+width: 20%;
+}
+.index{
+height: 100%;
+}
+/**/
+
+* {
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-font-smoothing:antialiased;
+	-moz-font-smoothing:antialiased;
+	-o-font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+}
+
+
+
+.container {
+	max-width:400px;
+	width:100%;
+	margin:0 auto;
+	position:relative; 
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+
+#contact {
+	background:#F9F9F9;
+	padding:25px;
+	margin:50px 0;
+}
+
+#contact h3 {
+	color: #F96;
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+#contact h4 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:13px;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+	width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+
+#contact textarea {
+	height:100px;
+	max-width:100%;
+  resize:none;
+}
+
+#contact button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:#0CF;
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+
+#contact button[type="submit"]:hover {
+	background:#09C;
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:#888;
+}
+:-moz-placeholder {
+ color:#888;
+}
+::-moz-placeholder {
+ color:#888;
+}
+:-ms-input-placeholder {
+ color:#888;
+}
+ 
+#nombre {
+float:right
+}
+
+  
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+        }
+
+        li {
+          float: left;
+        }
+
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+
+        li a:hover {
+          background-color: #111;
+        }
+    
+#fotosCuadro {
+
+height:1000px;
+    margin-top: 75px;
+    margin-bottom: 15px;
+}
+.imagenGaleria{ 
+    height: 100%;
+}
+
+#bibliografia {
+margin-left: 40px;
+margin-right: 40px;
+margin-bottom: 15px;
+width:70%;    
+}
+
+#fotoMia {
+margin-top: 15px;
+margin-bottom: 15px;
+width:30%;
+height:30%;
+}
+
+#links {
+justify-content:space-around;
+margin-right: 40px;
+}
+.frameBorder{
+border: 0px;
+}
+
+#Contacto:target{
+ margin-top: 100px;
+}
+
+#SobreMi:target{
+ margin-top: 50px;
+}
+
+#iframe1 {
+width:1000px;
+height:600px;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+#logoPubli {
+width:50px;
+height:50px;   
+}
+
+#logoPubli2 {
+width:50px;
+height:50px;   
+}
+
+#email {
+margin-top: 15px; 
+margin-left: 30px;
+}
+
+.frameBorder {
+width: 1200px;
+height: 600px;
+}
+
+
+
