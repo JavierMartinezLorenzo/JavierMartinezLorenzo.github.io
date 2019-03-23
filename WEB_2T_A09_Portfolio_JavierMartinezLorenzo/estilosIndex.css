@@ -60,7 +60,8 @@ body{
     top: 0%;
     width: 65%;
     margin: auto;
-    font-size: 17px;
+    font-size: 18px;
+    height:5vh;
 }
 
 
@@ -252,7 +253,7 @@ float:right
 #fotosCuadro {
 
 height:1000px;
-    margin-top: 75px;
+    margin-top: 20px;
     margin-bottom: 15px;
 }
 .imagenGaleria{ 
@@ -262,12 +263,12 @@ height:1000px;
 #bibliografia {
 margin-left: 40px;
 margin-right: 40px;
-margin-bottom: 15px;
+margin-bottom: 40px;
 width:70%;    
 }
 
 #fotoMia {
-margin-top: 15px;
+margin-top: 40px;
 margin-bottom: 15px;
 width:30%;
 height:30%;
@@ -285,9 +286,37 @@ border: 0px;
  margin-top: 100px;
 }
 
+#Contacto{
+ text-align: center;
+ font-size: 35px; 
+}
+
 #SobreMi:target{
  margin-top: 50px;
 }
+
+#SobreMi{
+text-align: center;
+font-size: 35px; 
+}
+
+#demoreel:target{
+ margin-top: 50px;
+}
+
+#demoreel{
+ margin-top: 50px;
+ text-align: center;
+ font-size: 35px; 
+}
+
+#index{
+ margin-top: 45px;
+ text-align: center;
+ font-size: 35px; 
+ margin-bottom: 20px;
+}
+
 
 #iframe1 {
 width:1000px;
@@ -307,14 +336,20 @@ height:50px;
 }
 
 #email {
-margin-top: 15px; 
+margin-top: 30px; 
 margin-left: 30px;
 }
 
 .frameBorder {
-width: 1200px;
+width: 1000px;
 height: 600px;
 }
 
+:target::before {
+    content:"";
+    display:block;
+    height:5vh; /* fixed header height*/
+    background-color:white;
+}
 
 
